@@ -1,7 +1,10 @@
 name             'base'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
-license          'All rights reserved'
+maintainer       'Juan Carlos Alonso Holmstron'
+maintainer_email 'j.carlos.alonso.h@gmail.com'
+license          'MIT'
 description      'Installs/Configures base'
 long_description 'Installs/Configures base'
 version          '0.1.0'
+
+depends 'selinux', '~> 0.9.0'
+depends 'firewall', '~> 1.0.1'

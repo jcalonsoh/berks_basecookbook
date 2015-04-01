@@ -2,6 +2,14 @@ source 'https://rubygems.org'
 
 gem 'berkshelf'
 
+#Testing tools
+
+gem 'foodcritic'
+gem 'thor-foodcritic'
+gem 'chefspec'
+gem 'test-kitchen'
+gem 'kitchen-vagrant'
+
 # Uncomment these lines if you want to live on the Edge:
 #
 # group :development do
