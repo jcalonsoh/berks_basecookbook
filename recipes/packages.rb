@@ -1,7 +1,7 @@
-Chef::Log.info("Installing packages")
+Chef::Log.info('Installing packages')
 
 execute 'UPDATE ALL' do
-  Chef::Log.info("UPDATE SYSTEM")
+  Chef::Log.info('UPDATE SYSTEM')
   command 'yum update -y'
 end
 

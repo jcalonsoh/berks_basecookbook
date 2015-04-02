@@ -1,6 +1,6 @@
-Chef::Log.info("Setting Firewall")
+Chef::Log.info('Setting Firewall')
 
-include_recipe "firewall"
+include_recipe 'firewall'
 
 firewall 'flush fw' do
   action :flush

@@ -7,18 +7,15 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "base::selinux"
+# #Chef::Log.info(node['mysql']['server_root_password'])
 
-include_recipe "base::firewall"
+include_recipe 'base::selinux'
+include_recipe 'base::firewall'
+include_recipe 'base::pam'
+include_recipe 'base::sysctl'
+include_recipe 'base::repo'
+include_recipe 'base::packages'
 
-include_recipe "base::pam"
-
-include_recipe "base::sysctl"
-
-include_recipe "base::repo"
-
-include_recipe "base::packages"
-
-execute "reboot" do
-  command "sudo shutdown -r 2 &"
+execute 'reboot' do
+  command 'sudo shutdown -r now &'
 end

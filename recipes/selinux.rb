@@ -1,7 +1,7 @@
-Chef::Log.info("Disabling SELINUX")
+Chef::Log.info('Disabling SELINUX')
 
-include_recipe "selinux"
+include_recipe 'selinux'
 
-selinux_state "SELinux" do
+selinux_state 'SELinux' do
   action :disabled
 end
