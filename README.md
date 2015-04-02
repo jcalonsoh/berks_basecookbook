@@ -41,3 +41,9 @@ Include `base` in your node's `run_list`:
 
 Author:: Juan Carlos Alonso Holmstron (j.carlos.alonso.h@gmail.com)
 # berks_basecookbook
+
+Please don't forget to install this vagrant plugins:
+
+* vagrant-berkshelf (4.0.3)
+* vagrant-share (1.1.3, system)
+* vagrant-vbguest (0.10.0)
