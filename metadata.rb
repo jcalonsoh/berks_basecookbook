@@ -8,3 +8,5 @@ version          '0.1.0'
 
 depends 'selinux', '~> 0.9.0'
 depends 'firewall', '~> 1.0.1'
+depends 'sysctl2', '~> 0.1.1'
+depends 'pam', '~> 1.0.1'

@@ -10,6 +10,9 @@ gem 'chefspec'
 gem 'test-kitchen'
 gem 'kitchen-vagrant'
 
+#Integration Plugins
+gem 'knife-vagrant2', '~> 0.0.6'
+
 # Uncomment these lines if you want to live on the Edge:
 #
 # group :development do

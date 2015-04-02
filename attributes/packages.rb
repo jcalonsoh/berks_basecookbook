@@ -72,7 +72,6 @@ default.packages = [
     { :name => 'setuptool' },
 
     # Installing MySQL deps
-    { :name => 'MySQL-server' },
     { :name => 'MySQL-client' },
     { :name => 'MySQL-shared' },
     { :name => 'cronie' },

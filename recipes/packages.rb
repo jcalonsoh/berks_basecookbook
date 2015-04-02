@@ -5,10 +5,10 @@ execute 'UPDATE ALL' do
   command 'yum update -y'
 end
 
-yum_package 'mysql-libs' do
+package 'mysql-libs' do
   action :remove
 end
 
 node.packages.each do |packages|
-  yum_package packages[:name]
+  package packages[:name]
 end
