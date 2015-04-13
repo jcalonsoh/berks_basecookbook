@@ -10,5 +10,7 @@ package 'mysql-libs' do
 end
 
 node.packages.each do |packages|
-  package packages[:name]
+  package packages[:name] do
+    ignore_failure true
+  end
 end

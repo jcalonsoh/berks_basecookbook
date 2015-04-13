@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.omnibus.chef_version = 'latest'
   end
 
-  config.vm.box = 'chef/centos-6.6'
+  config.vm.box = 'jcalonsoh/centos71'
 
   config.vm.network :private_network, type: 'dhcp'
 
