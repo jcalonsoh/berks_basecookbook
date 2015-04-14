@@ -1,0 +1,15 @@
+AllCops:
+  Exclude:
+    - '.kitchen/*'
+    - '.vagrant/*'
+    - '.idea/*'
+    - '.git/*'
+    - 'Vagrantfile'
+    - 'README.md'
+    - 'Thorfile'
+    - 'LICENSE'
+    - 'Gemfile.lock'
+    - 'chefignore'
+    - 'Berksfile.lock'
+    - 'Berksfile'
+    - 'templates/*'

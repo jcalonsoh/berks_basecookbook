@@ -44,6 +44,11 @@ Author:: Juan Carlos Alonso Holmstron (j.carlos.alonso.h@gmail.com)
 
 Please don't forget to install this vagrant plugins:
 
+* omnibus (4.0.0)
 * vagrant-berkshelf (4.0.3)
 * vagrant-share (1.1.3, system)
 * vagrant-vbguest (0.10.0)
+
+And for to be able to test instalation
+
+* chefdk (dont use rvm o rbenv, use embeded ruby on chefdk, a may example view in https://downloads.chef.io/chef-dk/ )

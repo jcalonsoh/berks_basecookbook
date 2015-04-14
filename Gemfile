@@ -9,6 +9,8 @@ gem 'chefspec'
 gem 'test-kitchen'
 gem 'kitchen-vagrant'
 gem 'rubocop', '~> 0.29.1'
+gem 'serverspec', '~> 2.14.1'
+gem 'knife-spec', '~> 1.0.0'
 
 # Uncomment these lines if you want to live on the Edge:
 #

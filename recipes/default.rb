@@ -16,6 +16,4 @@ include_recipe 'base::sysctl'
 include_recipe 'base::repo'
 include_recipe 'base::packages'
 
-execute 'reboot' do
-  command 'sudo shutdown -r now &'
-end
+log 'Well, that was too easy'

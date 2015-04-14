@@ -17,3 +17,8 @@ bin/*
 .bundle/*
 
 .idea
+
+.kitchen/
+
+.kitchen.local.yml
+
